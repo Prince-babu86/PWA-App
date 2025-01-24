@@ -11,7 +11,7 @@ const App = () => {
   return (
     <div>
       <div>
-        <Navbar/>
+      
         </div>
       <Routes>
        <Route path='/' element={<Clock/>}/>
