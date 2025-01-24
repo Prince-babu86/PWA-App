@@ -17,7 +17,7 @@ const App = () => {
 
   useEffect(() => {
     // Example: Automatically enter fullscreen when the app is loaded (optional)
-    // enterFullscreen();
+    enterFullscreen()
   }, []);
 
   return (
