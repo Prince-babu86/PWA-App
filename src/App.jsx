@@ -1,23 +1,30 @@
-import React, { useEffect } from 'react'
-import "./App.css"
-import Clock from './Components/Clock'
+import { useEffect } from 'react';
+import Clock from './Components/Clock';
+
 const App = () => {
-  useEffect(() => {
-    if (screen.orientation && screen.orientation.lock) {
-      screen.orientation.lock("portrait").catch((err) => console.log(err));
+  const enterFullscreen = () => {
+    const docElm = document.documentElement;
+    if (docElm.requestFullscreen) {
+      docElm.requestFullscreen();
+    } else if (docElm.mozRequestFullScreen) { // Firefox
+      docElm.mozRequestFullScreen();
+    } else if (docElm.webkitRequestFullscreen) { // Chrome, Safari, Opera
+      docElm.webkitRequestFullscreen();
+    } else if (docElm.msRequestFullscreen) { // IE/Edge
+      docElm.msRequestFullscreen();
     }
+  };
+
+  useEffect(() => {
+    // Example: Automatically enter fullscreen when the app is loaded (optional)
+    // enterFullscreen();
   }, []);
 
-  window.addEventListener("resize", () => {
-    console.log(`Width: ${window.innerWidth}px, Height: ${window.innerHeight}px`);
-  });
-  
   return (
     <div>
     <Clock/>
-  
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
