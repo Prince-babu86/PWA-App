@@ -21,12 +21,12 @@ export default defineConfig({
             type: 'image/jpg',
           },
           {
-            src: 'https://i.pinimg.com/736x/8e/2c/9a/8e2c9aba099fe0eac3583211fbd61e10.jpg',
+            src: 'https://i.pinimg.com/736x/65/00/d6/6500d661d250321800aaa538d1c1171d.jpg',
             sizes: '512x512',
             type: 'image/jpg',
           },
           {
-            src: 'https://i.pinimg.com/736x/8e/2c/9a/8e2c9aba099fe0eac3583211fbd61e10.jpg',
+            src: 'https://i.pinimg.com/736x/65/00/d6/6500d661d250321800aaa538d1c1171d.jpg',
             sizes: '512x512',
             type: 'image/jpg',
             purpose: 'any maskable',
