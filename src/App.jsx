@@ -1,28 +1,23 @@
 import { useEffect } from 'react';
 import Clock from './Components/Clock';
+import Timer from './Components/Timer';
+import { Route, Routes } from 'react-router-dom';
+import Navbar from './Components/Navbar';
 
 const App = () => {
-  const enterFullscreen = () => {
-    const docElm = document.documentElement;
-    if (docElm.requestFullscreen) {
-      docElm.requestFullscreen();
-    } else if (docElm.mozRequestFullScreen) { // Firefox
-      docElm.mozRequestFullScreen();
-    } else if (docElm.webkitRequestFullscreen) { // Chrome, Safari, Opera
-      docElm.webkitRequestFullscreen();
-    } else if (docElm.msRequestFullscreen) { // IE/Edge
-      docElm.msRequestFullscreen();
-    }
-  };
 
-  useEffect(() => {
-    // Example: Automatically enter fullscreen when the app is loaded (optional)
-    enterFullscreen()
-  }, []);
+  
 
   return (
     <div>
-    <Clock/>
+      <div>
+        <Navbar/>
+        </div>
+      <Routes>
+       <Route path='/' element={<Clock/>}/>
+       <Route path='/Timer' element={<Timer/>}/>
+      </Routes>
+   
     </div>
   );
 };
