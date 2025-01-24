@@ -8,6 +8,9 @@ const App = () => {
     }
   }, []);
 
+  window.addEventListener("resize", () => {
+    console.log(`Width: ${window.innerWidth}px, Height: ${window.innerHeight}px`);
+  });
   
   return (
     <div>
