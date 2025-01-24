@@ -4,7 +4,7 @@ const App = () => {
   return (
     <div>
       <button onClick={((e)=>{
-        alert("you clicked me")
+        alert("you clicked me ")
       })}>click me</button>
   
     </div>
