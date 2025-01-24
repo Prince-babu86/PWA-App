@@ -10,14 +10,7 @@ const App = () => {
 
   return (
     <div>
-      <div>
-      
-        </div>
-      <Routes>
-       <Route path='/' element={<Clock/>}/>
-       <Route path='/Timer' element={<Timer/>}/>
-      </Routes>
-   
+     <Clock/>
     </div>
   );
 };
