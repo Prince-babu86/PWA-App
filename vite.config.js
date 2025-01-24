@@ -16,6 +16,8 @@ export default defineConfig({
         short_name: 'Instragram0',
         description: 'A React app with PWA capabilities',
         theme_color: '#ffffff',
+        "display": "standalone",
+        
         icons: [
           {
             src: 'https://i.pinimg.com/736x/19/42/d5/1942d5deb0f788e6228054cd92767ff6.jpg',
