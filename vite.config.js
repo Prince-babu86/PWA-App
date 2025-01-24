@@ -11,7 +11,7 @@ export default defineConfig({
       includeAssets: ['favicon.svg', 'favicon.ico', 'robots.txt', 'apple-touch-icon.png'],
       manifest: {
         name: 'My PWA App',
-        short_name: 'Instragram',
+        short_name: 'Instragram0',
         description: 'A React app with PWA capabilities',
         theme_color: '#ffffff',
         icons: [
