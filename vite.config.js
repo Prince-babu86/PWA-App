@@ -11,22 +11,22 @@ export default defineConfig({
       includeAssets: ['favicon.svg', 'favicon.ico', 'robots.txt', 'apple-touch-icon.png'],
       manifest: {
         name: 'My PWA App',
-        short_name: 'PWA',
+        short_name: 'Instragram',
         description: 'A React app with PWA capabilities',
         theme_color: '#ffffff',
         icons: [
           {
-            src: 'https://i.pinimg.com/736x/65/00/d6/6500d661d250321800aaa538d1c1171d.jpg',
+            src: 'https://i.pinimg.com/736x/19/42/d5/1942d5deb0f788e6228054cd92767ff6.jpg',
             sizes: '192x192',
             type: 'image/jpg',
           },
           {
-            src: 'https://i.pinimg.com/736x/65/00/d6/6500d661d250321800aaa538d1c1171d.jpg',
+            src: 'https://i.pinimg.com/736x/19/42/d5/1942d5deb0f788e6228054cd92767ff6.jpg',
             sizes: '512x512',
             type: 'image/jpg',
           },
           {
-            src: 'https://i.pinimg.com/736x/65/00/d6/6500d661d250321800aaa538d1c1171d.jpg',
+            src: 'https://i.pinimg.com/736x/19/42/d5/1942d5deb0f788e6228054cd92767ff6.jpg',
             sizes: '512x512',
             type: 'image/jpg',
             purpose: 'any maskable',
