@@ -16,19 +16,19 @@ export default defineConfig({
         theme_color: '#ffffff',
         icons: [
           {
-            src: 'pwa-192x192.png',
+            src: 'https://i.pinimg.com/736x/8e/2c/9a/8e2c9aba099fe0eac3583211fbd61e10.jpg',
             sizes: '192x192',
-            type: 'image/png',
+            type: 'image/jpg',
           },
           {
-            src: 'pwa-512x512.png',
+            src: 'https://i.pinimg.com/736x/8e/2c/9a/8e2c9aba099fe0eac3583211fbd61e10.jpg',
             sizes: '512x512',
-            type: 'image/png',
+            type: 'image/jpg',
           },
           {
-            src: 'pwa-512x512.png',
+            src: 'https://i.pinimg.com/736x/8e/2c/9a/8e2c9aba099fe0eac3583211fbd61e10.jpg',
             sizes: '512x512',
-            type: 'image/png',
+            type: 'image/jpg',
             purpose: 'any maskable',
           },
         ],
