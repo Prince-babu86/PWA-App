@@ -20,7 +20,7 @@ body{
 }
 
 .clock h1{
-    font-size: 150px;
+    font-size: 300px;
     rotate: -90deg;
     font-family: futura;
 }
