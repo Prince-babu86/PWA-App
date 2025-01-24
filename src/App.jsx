@@ -1,11 +1,10 @@
 import React from 'react'
 import "./App.css"
+import Clock from './Components/Clock'
 const App = () => {
   return (
     <div>
-      <button onClick={((e)=>{
-        alert("you clicked me ")
-      })}>click me</button>
+    <Clock/>
   
     </div>
   )
