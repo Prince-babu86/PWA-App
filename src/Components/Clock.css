@@ -9,7 +9,7 @@ body{
 
 }
 
-/* @media (max-width:600px) {
+@media (max-width:600px) {
     .clock{
         background-color: black;
         color: white;
@@ -20,11 +20,11 @@ body{
     }
     
     .clock h1{
-        font-size: 150px;
+        font-size: 100px;
         rotate: -90deg;
         font-family: futura;
     }
-} */
+}
 
 
 .clock{
@@ -38,7 +38,6 @@ body{
 }
 
 .clock h1{
-    font-size: 480px;
+    font-size: 180px;
     font-family: futura;
-    rotate: -90deg;
 }
